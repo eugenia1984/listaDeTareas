@@ -117,11 +117,11 @@ li p {
   color: var(--bg-secondary);
   padding: 4px 12px;
   border: 1px solid var(--bg-btn-delete);
-  border-radius: var(--btn-border-radius);
-  -webkit-border-radius: var(--btn-border-radius);
-  -moz-border-radius: var(--btn-border-radius);
-  -ms-border-radius: var(--btn-border-radius);
-  -o-border-radius: var(--btn-border-radius);
+  border-radius: 0px var(--btn-border-radius) var(--btn-border-radius) 0px;
+  -webkit-border-radius: 0px var(--btn-border-radius) var(--btn-border-radius) 0px;
+  -moz-border-radius: 0px var(--btn-border-radius) var(--btn-border-radius) 0px;
+  -ms-border-radius: 0px var(--btn-border-radius) var(--btn-border-radius) 0px;
+  -o-border-radius: 0px var(--btn-border-radius) var(--btn-border-radius) 0px;
 }
 
 .empty {
