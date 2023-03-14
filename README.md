@@ -4,6 +4,16 @@ La segunda practica del curso de **React** con Codo a Codo.
 
 Realizamos una lista de tareas con HTML5, CSS3 y JavaScript.
 
+Asi se ve cuando no hay tareas pendientes:
+
+![image](https://user-images.githubusercontent.com/72580574/225160518-2ba312e8-3752-4911-8475-899c96924a36.png)
+
+
+Y asi al tener tareas:
+
+![image](https://user-images.githubusercontent.com/72580574/225160910-4440cde3-6a57-4ed3-bab5-6b6c599397f9.png)
+
+
 ---
 
 ## Demo
