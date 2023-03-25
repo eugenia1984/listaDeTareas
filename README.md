@@ -1,6 +1,6 @@
 # :star: Lista de tareas
 
-La segunda practica del curso de **React** con Codo a Codo.
+La tercer práctica del curso de **React** con Codo a Codo.
 
 Realizamos una lista de tareas con HTML5, CSS3 y JavaScript.
 
