@@ -24,6 +24,7 @@
 <body>
     <div class="container">
       <h1>Task List</h1>
+      <p id="today"></p>
       <div class="tareasList">
         <form>
           <input type="text" placeholder="Add new task . . .">
@@ -36,7 +37,15 @@
       <div class="empty">
         <p>You have no pending tasks.</p>
       </div>
+      <div class="history">
+        <section class="btn-history">
+          <button class="view-history">View task's history</button>
+        </section>
+        <section id="task-history"></section>
+        
+      </div>
     </div>
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/date.js"></script>
 </body>
 </html>
