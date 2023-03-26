@@ -13,6 +13,19 @@ Y asi al tener tareas:
 
 ![image](https://user-images.githubusercontent.com/72580574/225160910-4440cde3-6a57-4ed3-bab5-6b6c599397f9.png)
 
+Agrego nuevas funcionalidades:
+
+- Muestro la fecha actual
+
+- Agrego el botón **View task's history** para que renderice la lista de las tareas ingresadas, filtrando las repetidas.
+
+![image](https://user-images.githubusercontent.com/72580574/227750037-00ee70bf-f83a-4deb-bea2-178b6a337c93.png)
+
+
+Y al tener la historia de las tareas, se agrega el boton **Clear task's history** para limpiar la lista de las tareas.
+
+![image](https://user-images.githubusercontent.com/72580574/227750067-7bcdb818-faba-4929-bbe9-ec9c5c04517f.png)
+
 
 ---
 
