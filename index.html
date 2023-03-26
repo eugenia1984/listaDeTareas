@@ -24,6 +24,16 @@
 <body>
     <div class="container">
       <h1>Task List</h1>
+      <div class="date">
+        <div class="dateRight">
+            <div id="dateNumber"></div>
+            <div>
+                <div id="dateMonth"></div>
+                <div id="dateYear"></div>
+            </div>
+        </div>
+        <div id="dateText"></div>
+      </div>
       <p id="today"></p>
       <div class="tareasList">
         <form>
@@ -42,6 +52,9 @@
           <button class="view-history">View task's history</button>
         </section>
         <section id="task-history"></section>
+        <section id="clear-history" class="no-show">
+          <button class="clear-history-btn">Clear task's history</button>
+        </section>
         
       </div>
     </div>

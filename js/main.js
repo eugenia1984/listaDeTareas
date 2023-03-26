@@ -2,8 +2,11 @@ const d = document;
 const input = d.querySelector("input");
 const addBtn = d.querySelector(".btn-add");
 const historyBtn = d.querySelector(".view-history");
+const clearHistoryBtn = d.querySelector(".clear-history-btn");
 const ul = d.querySelector("ul");
 const empty = d.querySelector(".empty");
+const taskHistoryDiv = d.querySelector("#task-history");
+const clearHistory = d.querySelector("#clear-history");
 let taskHistory = [];
 
 const addDeleteBtn = () => {
@@ -45,9 +48,24 @@ addBtn.addEventListener("click", (e) => {
   }
 });
 
-
-
 historyBtn.addEventListener("click", (e) => {
   e.preventDefault();
   const p = d.createElement("p");
-})
+  // Filter the repeated tasks
+  let noRepeatedTask = taskHistory.filter((item, index) => {
+    return taskHistory.indexOf(item) === index;
+  });
+  // Transform the no repeated array items to String
+  p.textContent = noRepeatedTask.join(", ");
+  taskHistoryDiv.appendChild(p);
+  taskHistory = [];
+  clearHistory.classList.remove("no-show");
+  clearHistory.classList.add("show");
+});
+
+clearHistoryBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (taskHistoryDiv.hasChildNodes()) {
+    taskHistoryDiv.removeChild(taskHistoryDiv.lastChild);
+  }
+});
