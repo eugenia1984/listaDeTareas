@@ -1,4 +1,4 @@
-# :star: Lista de tareas
+# <img width="48" height="48" src="https://img.icons8.com/color/48/todo-list--v1.png" alt="todo-list--v1"/> Lista de tareas
 
 La tercer práctica del curso de **React** con Codo a Codo.
 
@@ -32,7 +32,7 @@ Y al tener la historia de las tareas, se agrega el boton **Clear task's history*
 ## Demo
 
 
-[Haciendo click aca podes verla en acción]( https://eugenia1984.github.io/listaDeTareas/)
+[Haciendo click aca podes verla en acción-> eugenia1984.github.io/listaDeTareas/]( https://eugenia1984.github.io/listaDeTareas/)
 
 ---
 
@@ -40,11 +40,11 @@ Y al tener la historia de las tareas, se agrega el boton **Clear task's history*
 ## Tecnologías 🛠️
 
 
--<img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5** 
+- <img src="https://img.icons8.com/color/30/null/html-5--v1.png"/> **HTML5** 
 
--<img src="https://img.icons8.com/color/30/null/css3.png"/>**CSS3**
+- <img src="https://img.icons8.com/color/30/null/css3.png"/>**CSS3**
 
--<img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
+- <img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
 
 ---
 
